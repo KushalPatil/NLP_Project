@@ -1,0 +1,10 @@
+# Support-Ticket-Classification-using-NLP
+The purpose of this project is to deploy a production-level Machine Learning solution in the IT Service Management (ITSM) environment. The goal is to help IT service organizations better understand and categorize new service tickets based on the text input. The article serves as a guide for data science enthusiasts to implement this solution and achieve cost savings, improved SLA response times, and increased accuracy in the ITSM process.
+
+The proposed solution employs a supervised, classification algorithm using Python, RESTful API framework, Scikit-Learn, and SpaCy to categorize new tickets. The model has achieved more than 85% accuracy in making predictions for all tickets in the production environment. The project has resulted in a significant reduction in SLA response times and an annual cost savings of nearly $600,000.
+
+The ITSM function is responsible for maximizing user productivity, providing end-to-end tech services, and more. However, front-end IT interactions are often defined by long and arduous conversations with support specialists. IT organizations struggle to staff and support a comprehensive help-desk management solution that serves the entire enterprise, leading to frustrated users, callous support professionals, and stumped leadership.
+
+To address these issues, the project employs multinomial classification via supervised Machine Learning to categorize support tickets based on a fixed number of business groups. The data is gathered and explored using ServiceNow's API Explorer, which allows custom API requests to be built from scratch. The dataframe was cleaned to remove noise and ensure that only relevant categories were used. The remaining categories were used as the labels to train the model.
+
+The project has identified a major issue with the current system, which charges $13 for every ticket interaction and averages 40% accuracy, performing worse than if no action was taken. The solution proposed in this article has the potential to improve the ITSM process, delivering cost savings, better SLA outcomes, and more accurate predictions.
